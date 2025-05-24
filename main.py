@@ -145,10 +145,10 @@ async def get_countries():
 @app.get("/get_metadata", response_model=MetadataItem)
 async def get_metadata():
     return MetadataItem(
-        description="Sentinel Asiaは、アジア太平洋地域の災害管理に貢献するために宇宙技術を活用した国際協力プロジェクトです。",
-        licence="CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
-        methodology="公式ウェブサイトから自動収集・パースしています。",
-        caveats="一部の国名や災害タイプは自動抽出のため誤りが含まれる場合があります。"
+        description="Sentinel Asia is an international cooperation project that utilizes space technology to contribute to disaster management in the Asia-Pacific region.",
+        licence="The obtained files cannot be modified. When publishing the obtained files, please include credits as referenced in each file. All products are provided by Sentinel Asia and must be attributed accordingly.",
+        methodology="Automatically collected and parsed from the official website.",
+        caveats="Some country names and disaster types may contain errors due to automatic extraction."
     )
 
 @app.get("/get_events", response_model=List[EventItem])
