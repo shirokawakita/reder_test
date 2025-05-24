@@ -2,6 +2,14 @@
 
 Sentinel Asiaの緊急観測要請（EOR: Emergency Observation Request）情報を取得するFastAPIベースのAPIサーバーです。
 
+## APIエンドポイント
+
+本APIは以下のURLでホストされています：
+- 本番環境: https://reder-test-o5k8.onrender.com
+
+ローカル環境での開発時は以下のURLを使用します：
+- ローカル環境: http://localhost:8000
+
 ## 主な機能
 
 - EOR（災害イベント）情報の一覧取得
@@ -76,13 +84,17 @@ uvicorn main:app --reload
 import requests
 import pandas as pd
 
+# APIのベースURL
+BASE_URL = "https://reder-test-o5k8.onrender.com"  # 本番環境
+# BASE_URL = "http://localhost:8000"  # ローカル環境
+
 # 国リスト取得
-countries = requests.get("http://localhost:8000/get_countries").json()
+countries = requests.get(f"{BASE_URL}/get_countries").json()
 df_countries = pd.DataFrame(countries)
 display(df_countries)
 
 # 例：2024年以降の中国（CHN）のイベントを取得
-events_url = "http://localhost:8000/get_events"
+events_url = f"{BASE_URL}/get_events"
 params = {
     "countryiso3s": "CHN",
     "start_date": "20240101"
@@ -93,7 +105,7 @@ display(df_events[["name", "disaster_type", "occurrence_date", "country", "reque
 
 # 1件目のイベントのProduct（成果物）一覧を取得
 if len(df_events) > 0:
-    products = requests.get("http://localhost:8000/get_products", params={"url": df_events.iloc[0]["url"]}).json()
+    products = requests.get(f"{BASE_URL}/get_products", params={"url": df_events.iloc[0]["url"]}).json()
     df_products = pd.DataFrame(products)
     display(df_products)
     # 1番目のkmzファイルをダウンロード
@@ -111,4 +123,130 @@ if len(df_events) > 0:
 
 ---
 
+# Sentinel Asia EOR API (English)
+
+A FastAPI-based API server for retrieving Sentinel Asia Emergency Observation Request (EOR) information.
+
+## API Endpoints
+
+The API is hosted at the following URLs:
+- Production: https://reder-test-o5k8.onrender.com
+
+For local development, use:
+- Local: http://localhost:8000
+
+## Main Features
+
+- Retrieve EOR (disaster event) information
+- Filter by year, country (ISO3 code), and date range
+- Automatic extraction of detailed EOR information (requester, escalation_to_charter, glide_number, country, etc.)
+- Links to file lists for each EOR
+- Available country list retrieval (covering Asia, Middle East, and Pacific countries)
+- Service metadata retrieval
+
+## Key Specifications
+
+- **Country names are extracted from the "Country" field** in the EOR detail page, and ISO3 codes are mapped accordingly.
+- Disaster event details (requester, escalation_to_charter, glide_number, etc.) are automatically extracted from the EOR detail page.
+- Country codes cover all Asian, Middle Eastern, and Pacific countries.
+
+## License and Terms of Use
+
+The following conditions apply to the use of obtained products (files):
+
+1. Obtained files cannot be modified.
+2. When publishing obtained files, please include credits as referenced in each file.
+3. All products are provided by Sentinel Asia and must be properly attributed.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Server Startup
+
+```bash
+conda activate sentinel_api
+uvicorn main:app --reload
+```
+
+## API Endpoints
+
+### 1. Country List Retrieval
+- `GET /get_countries`
+- Returns a list of available country names and ISO3 codes.
+- **Covers Asian, Middle Eastern, and Pacific countries**
+
+### 2. Metadata Retrieval
+- `GET /get_metadata`
+- Returns service description, license, methodology, and caveats.
+- Response content:
+  - description: Service description
+  - licence: Terms of use and license information
+  - methodology: Data collection method
+  - caveats: Notes and limitations
+
+### 3. Disaster Event Information Retrieval
+- `GET /get_events`
+- Query parameters:
+  - `countryiso3s`: Comma-separated ISO3 country codes (e.g., JPN,PHL,CHN,IND,IDN,IRN,ISR,SAU,SGP,FJI)
+  - `start_date`: Start date (YYYYMMDD or YYYY-MM-DD)
+  - `end_date`: End date (YYYYMMDD or YYYY-MM-DD)
+- Response content:
+  - name, description, disaster_type, country, country_iso3, occurrence_date, sa_activation_date, requester, escalation_to_charter, glide_number, url, etc.
+- **Country names, ISO3 codes, and requester information are automatically extracted from the EOR detail page**
+
+### 4. Product Information Retrieval
+- `GET /get_products?url=...`
+- Returns a list of products (e.g., kmz files) from the specified EOR detail page URL.
+- Response content:
+  - date, title, download_url, view_url, file_type, etc.
+
+## Usage Example (Python/Jupyter Notebook)
+
+```python
+import requests
+import pandas as pd
+
+# API base URL
+BASE_URL = "https://reder-test-o5k8.onrender.com"  # Production
+# BASE_URL = "http://localhost:8000"  # Local
+
+# Get country list
+countries = requests.get(f"{BASE_URL}/get_countries").json()
+df_countries = pd.DataFrame(countries)
+display(df_countries)
+
+# Example: Get events in China (CHN) since 2024
+events_url = f"{BASE_URL}/get_events"
+params = {
+    "countryiso3s": "CHN",
+    "start_date": "20240101"
+}
+events = requests.get(events_url, params=params).json()
+df_events = pd.DataFrame(events)
+display(df_events[["name", "disaster_type", "occurrence_date", "country", "requester", "glide_number", "url"]])
+
+# Get product list for the first event
+if len(df_events) > 0:
+    products = requests.get(f"{BASE_URL}/get_products", params={"url": df_events.iloc[0]["url"]}).json()
+    df_products = pd.DataFrame(products)
+    display(df_products)
+    # Download the first kmz file
+    kmz_row = df_products[df_products["file_type"] == "kmz"].iloc[0]
+    download_url = kmz_row["download_url"]
+    r = requests.get(download_url)
+    with open("downloaded_product.kmz", "wb") as f:
+        f.write(r.content)
+```
+
+## Notes
+- This API depends on the HTML structure of the Sentinel Asia official website, so it may stop working if the site structure changes.
+- Automatic extraction of country names and disaster types may not be perfect.
+- The above license and terms of use apply to the use of obtained products.
+
+---
+
 ご質問・要望はIssueまたはPull Requestでお知らせください。
+Questions and requests can be submitted via Issues or Pull Requests.
