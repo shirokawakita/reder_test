@@ -10,6 +10,41 @@ Sentinel Asiaの緊急観測要請（EOR: Emergency Observation Request）情報
 ローカル環境での開発時は以下のURLを使用します：
 - ローカル環境: http://localhost:8000
 
+## APIドキュメント
+
+本APIは以下の2つのインタラクティブなドキュメントを提供しています：
+
+### Swagger UI
+- URL: `/docs`
+- インタラクティブなAPIドキュメント
+- APIエンドポイントのテスト実行が可能
+- リクエストパラメータの詳細な説明
+- レスポンスのスキーマ定義
+
+### ReDoc
+- URL: `/redoc`
+- より読みやすい形式のAPIドキュメント
+- エンドポイントの詳細な説明
+- リクエスト/レスポンスの例
+- スキーマの視覚的な表示
+
+## サンプルノートブック
+
+本APIの使用方法を示す2つのJupyter Notebookを提供しています：
+
+### sample_render.ipynb
+- RenderでホストされたAPIの基本的な使用方法
+- 国リストの取得
+- イベント情報の取得とフィルタリング
+- プロダクト情報の取得
+- データの可視化例
+
+### get_kmz_files.ipynb
+- KMZファイルの取得と保存に特化したサンプル
+- 特定の国や期間のKMZファイルを一括取得
+- ファイルの自動ダウンロードと保存
+- エラーハンドリングの例
+
 ## 主な機能
 
 - EOR（災害イベント）情報の一覧取得
@@ -134,6 +169,41 @@ The API is hosted at the following URLs:
 
 For local development, use:
 - Local: http://localhost:8000
+
+## API Documentation
+
+The API provides two interactive documentation interfaces:
+
+### Swagger UI
+- URL: `/docs`
+- Interactive API documentation
+- Test API endpoints directly
+- Detailed request parameter descriptions
+- Response schema definitions
+
+### ReDoc
+- URL: `/redoc`
+- More readable API documentation format
+- Detailed endpoint descriptions
+- Request/response examples
+- Visual schema representation
+
+## Sample Notebooks
+
+Two Jupyter Notebooks are provided to demonstrate the API usage:
+
+### sample_render.ipynb
+- Basic usage of the API hosted on Render
+- Retrieving country list
+- Getting and filtering event information
+- Retrieving product information
+- Data visualization examples
+
+### get_kmz_files.ipynb
+- Sample focused on KMZ file retrieval and saving
+- Batch retrieval of KMZ files for specific countries or periods
+- Automatic file download and saving
+- Error handling examples
 
 ## Main Features
 
