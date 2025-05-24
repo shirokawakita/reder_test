@@ -5,7 +5,7 @@ Sentinel Asiaの緊急観測要請（EOR: Emergency Observation Request）情報
 ## APIエンドポイント
 
 本APIは以下のURLでホストされています：
-- 本番環境: https://reder-test-o5k8.onrender.com
+- デモ環境: https://reder-test-o5k8.onrender.com
 
 ローカル環境での開発時は以下のURLを使用します：
 - ローカル環境: http://localhost:8000
@@ -120,7 +120,7 @@ import requests
 import pandas as pd
 
 # APIのベースURL
-BASE_URL = "https://reder-test-o5k8.onrender.com"  # 本番環境
+BASE_URL = "https://reder-test-o5k8.onrender.com"  # デモ環境
 # BASE_URL = "http://localhost:8000"  # ローカル環境
 
 # 国リスト取得
@@ -165,7 +165,7 @@ A FastAPI-based API server for retrieving Sentinel Asia Emergency Observation Re
 ## API Endpoints
 
 The API is hosted at the following URLs:
-- Production: https://reder-test-o5k8.onrender.com
+- Demo: https://reder-test-o5k8.onrender.com
 
 For local development, use:
 - Local: http://localhost:8000
@@ -280,7 +280,7 @@ import requests
 import pandas as pd
 
 # API base URL
-BASE_URL = "https://reder-test-o5k8.onrender.com"  # Production
+BASE_URL = "https://reder-test-o5k8.onrender.com"  # Demo
 # BASE_URL = "http://localhost:8000"  # Local
 
 # Get country list
