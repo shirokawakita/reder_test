@@ -1,5 +1,166 @@
 [
   {
+    "name": "Flood and Landslide in Lai ChÃ¢u State, Vietnam",
+    "description": "2025-06-08: Flood and Landslide in Lai ChÃ¢u State, Vietnam on 08 June, 2025",
+    "disaster_type": "Flood and Landslide",
+    "country": "Vietnam",
+    "country_iso3": "VNM",
+    "occurrence_date": "2025-06-08",
+    "sa_activation_date": "2025-06-08",
+    "requester": "VietNam Ministry of agriculture and environment (MAE)",
+    "escalation_to_charter": "No",
+    "glide_number": "FL-2025-000079-VNM",
+    "additional_metadata": null,
+    "files": [],
+    "url": "https://sentinel-asia.org/EO/2025/article20250608VN.html"
+  },
+  {
+    "name": "Oil and Chemical spill in India",
+    "description": "2025-05-25: Oil and Chemical spill in India on 25 May, 2025",
+    "disaster_type": "Oil and Chemical spill",
+    "country": "India",
+    "country_iso3": "IND",
+    "occurrence_date": "2025-05-25",
+    "sa_activation_date": "2025-05-25",
+    "requester": "Indian Space Research Organization (ISRO)",
+    "escalation_to_charter": "No",
+    "glide_number": "AC-2025-000070-IND",
+    "additional_metadata": null,
+    "files": [
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59470/3420 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/ALOS2594703420-250528-FBDR2.1GUD/IMG-HH-ALOS2594703420-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59470/3430 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/ALOS2594703430-250528-FBDR2.1GUD/IMG-HH-ALOS2594703430-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59470/3440 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/ALOS2594703440-250528-FBDR2.1GUD/IMG-HH-ALOS2594703440-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59470/3450 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/ALOS2594703450-250528-FBDR2.1GUD/IMG-HH-ALOS2594703450-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59470/3460 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/ALOS2594703460-250528-FBDR2.1GUD/IMG-HH-ALOS2594703460-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G000 PMS L4UTM 2025/06/02 05:30:40",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/FS5_G000_PMS_L4UTM_20250602_053040/FS5_G000_PMS_L4UTM_20250602_053040_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G001 PMS L4UTM 2025/06/02 05:30:43",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/FS5_G001_PMS_L4UTM_20250602_053043/FS5_G001_PMS_L4UTM_20250602_053043_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G002 PMS L4UTM 2025/06/02 05:30:46",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525IN/FS5_G002_PMS_L4UTM_20250602_053046/FS5_G002_PMS_L4UTM_20250602_053046_qls.jpg",
+        "file_type": "jpg"
+      }
+    ],
+    "url": "https://sentinel-asia.org/EO/2025/article20250525IN.html"
+  },
+  {
+    "name": "Flood and Landslide in Central Vietnam",
+    "description": "2025-05-25: Flood and Landslide in Central Vietnam on 25 May, 2025",
+    "disaster_type": "Flood and Landslide",
+    "country": "Vietnam",
+    "country_iso3": "VNM",
+    "occurrence_date": "2025-05-25",
+    "sa_activation_date": "2025-05-25",
+    "requester": "Ministry of Agriculture and Environment, Vietnam",
+    "escalation_to_charter": "No",
+    "glide_number": "FL-2025-000069-VNM",
+    "additional_metadata": null,
+    "files": [
+      {
+        "name": "Flood Proxy Map 2025-05-28by ALOS-2 (Automatic Analysis)",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/JAXA/JAXA_20250528_FPM_ALOS2_Vietnam_FLDEXT.geojson.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "Flood Proxy Map 2025-05-28by ALOS-2 (Automatic Analysis)",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/JAXA/JAXA_20250528_FPM_ALOS2_Vietnam_REGION.geojson.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "DETECTED FLOOD WATER INHA TINH PROVINCE VIETNAMAs Observed by ALOS-2 image 28 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/AIT/AIT-VAP001-VNM.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "DETECTED FLOOD WATER INHA TINH PROVINCE VIETNAMAs Observed by ALOS-2 image 28 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/AIT/AIT-VAP001-VNM.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 34629/3240 2020/10/21 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/ALOS2346293240-201021-FBDR2.1GUD/IMG-HH-ALOS2346293240-201021-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 34629/3250 2020/10/21 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/ALOS2346293250-201021-FBDR2.1GUD/IMG-HH-ALOS2346293250-201021-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59469/3240 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/ALOS2594693240-250528-FBDR2.1GUD/IMG-HH-ALOS2594693240-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 59469/3250 2025/05/28 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/ALOS2594693250-250528-FBDR2.1GUD/IMG-HH-ALOS2594693250-250528-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "Resourcesat-2 AWPath=124 Row=06128-MAY-2025 02:59:28",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/R2W28MAY2025/vn_rs2_aw_28may25_jpg.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G000 PMS L4UTM 2025/06/08 03:48:40",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/FS5_G000_PMS_L4UTM_20250608_034840/FS5_G000_PMS_L4UTM_20250608_034840_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G001 PMS L4UTM 2025/06/08 03:48:43",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250525VN/FS5_G001_PMS_L4UTM_20250608_034843/FS5_G001_PMS_L4UTM_20250608_034843_qls.jpg",
+        "file_type": "jpg"
+      }
+    ],
+    "url": "https://sentinel-asia.org/EO/2025/article20250525VN.html"
+  },
+  {
     "name": "Flood and Landslide in Northern Vietnam",
     "description": "2025-05-18: Flood and Landslide in Northern Vietnam on 18 May, 2025",
     "disaster_type": "Flood and Landslide",
@@ -31,6 +192,90 @@
         "file_type": "zip"
       },
       {
+        "name": "EOS-RS Damage Proxy Map:Northern Vietnam,FloodsAs Observed by Sentinel-1 image 22 May 2025, v0.9",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/EOS-RS_20250522_DPM_S1/EOS-RS_20250522_DPM_S1_Northern_Vietnam_Floods_v0.9_MAIN.png",
+        "file_type": "png"
+      },
+      {
+        "name": "EOS-RS Damage Proxy Map:Northern Vietnam,FloodsAs Observed by Sentinel-1 image 22 May 2025, v0.9",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/EOS-RS_20250522_DPM_S1/EOS-RS_20250522_DPM_S1_Northern_Vietnam_Floods_v0.9.kmz",
+        "file_type": "kmz"
+      },
+      {
+        "name": "DETECTED FLOOD WATER IN NORTHERN VIETNAM REGIONAs Observed by Sentinel-1 image 22 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/AIT/AIT-VAP001-VNM.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "DETECTED FLOOD WATER IN NORTHERN VIETNAM REGIONAs Observed by Sentinel-1 image 22 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/AIT/AIT-VAP001-VNM.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "Post-Disaster Flood, Landslide, and Storm Assessment - Northern VietnamAs Observed by Sentinel-1 image on 22 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/MBRSC/MBRSC-20250518-Vietnam-Flood-Landslide-Storm-00580-Report.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "Post-Disaster Flood, Landslide, and Storm Assessment - Northern VietnamAs Observed by Sentinel-1 image on 22 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/MBRSC/20250518-Vietnam-Flood-Landslide-Storm-00580-Results.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 05028/3160 2015/04/29 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2050283160-150429-FBDR2.1GUD/IMG-HH-ALOS2050283160-150429-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 05028/3170 2015/04/29 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2050283170-150429-FBDR2.1GUD/IMG-HH-ALOS2050283170-150429-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 06477/3180 2015/08/05 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2064773180-150805-FBDR2.1GUD/IMG-HH-ALOS2064773180-150805-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 06477/3190 2015/08/05 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2064773190-150805-FBDR2.1GUD/IMG-HH-ALOS2064773190-150805-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 16413/3160 2017/06/07 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2164133160-170607-FBDR2.1GUD/IMG-HH-ALOS2164133160-170607-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 16413/3190 2017/06/07 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2164133190-170607-FBDR2.1GUD/IMG-HH-ALOS2164133190-170607-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 17655/3170 2017/08/30 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2176553170-170830-FBDR2.1GUD/IMG-HH-ALOS2176553170-170830-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-2 Level2.1IMG HH ALOS2 17655/3180 2017/08/30 FBD R 2.1 GUD",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2176553180-170830-FBDR2.1GUD/IMG-HH-ALOS2176553180-170830-FBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
         "name": "ALOS-2 Level2.1IMG HH ALOS2 59188/3150 2025/05/09 WBD R 2.1 GUD",
         "description": null,
         "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2591883150-250509-WBDR2.1GUD/IMG-HH-ALOS2591883150-250509-WBDR2.1GUD_sml.jpg",
@@ -43,6 +288,54 @@
         "file_type": "jpg"
       },
       {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363160 25/05/22 FWD PRD0106- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363160250522FWDPRD0106_2.1GU-/BRS-HH-ALOS40363160250522FWDPRD0106-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363160 25/05/22 FWD PRD0107- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363160250522FWDPRD0107_2.1GU-/BRS-HH-ALOS40363160250522FWDPRD0107-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363170 25/05/22 WDP RD0106- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363170250522FWDPRD0106_2.1GU-/BRS-HH-ALOS40363170250522FWDPRD0106-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363170 25/05/22 FWD PRD0107- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363170250522FWDPRD0107_2.1GU-/BRS-HH-ALOS40363170250522FWDPRD0107-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363180 25/05/22 FWD PRD0106- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363180250522FWDPRD0106_2.1GU-/BRS-HH-ALOS40363180250522FWDPRD0106-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363180 25/05/22 FWD PRD0107- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363180250522FWDPRD0107-2.1GU-/BRS-HH-ALOS40363180250522FWDPRD0107-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363190 25/05/22 FWD PRD0106- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363190250522FWDPRD0106_2.1GU-/BRS-HH-ALOS40363190250522FWDPRD0106-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "ALOS-4 Level2.1BRS HH ALOS4 0363190 25/05/22 FWD PRD0107- 2.1GU-",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS40363190250522FWDPRD0107-2.1GU-/BRS-HH-ALOS40363190250522FWDPRD0107-2.1GU-.jpg",
+        "file_type": "jpg"
+      },
+      {
         "name": "ALOS-2 Level2.1IMG HH ALOS2 59395/3150 2025/05/23 WBD R 2.1 GUD",
         "description": null,
         "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2593953150-250523-WBDR2.1GUD/IMG-HH-ALOS2593953150-250523-WBDR2.1GUD_sml.jpg",
@@ -52,6 +345,18 @@
         "name": "ALOS-2 Level2.1IMG HH ALOS2 59395/3200 2025/05/23 WBD R 2.1 GUD",
         "description": null,
         "url": "https://sentinel-asia.org/EO/2025/article20250518VN/ALOS2593953200-250523-WBDR2.1GUD/IMG-HH-ALOS2593953200-250523-WBDR2.1GUD_sml.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G000 PMS L4UTM 2025/06/02 03:47:58",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/FS5_G000_PMS_L4UTM_20250602_034758/FS5_G000_PMS_L4UTM_20250602_034758_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G001 PMS L4UTM 2025/06/02 03:48:01",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250518VN/FS5_G001_PMS_L4UTM_20250602_034801/FS5_G001_PMS_L4UTM_20250602_034801_qls.jpg",
         "file_type": "jpg"
       }
     ],
@@ -81,6 +386,66 @@
         "description": null,
         "url": "https://sentinel-asia.org/EO/2025/article20250515NP/EOS-RS_20250516_DPM_S1/EOS-RS_20250516_DPM_S1_Nepal_Tilwa_Nepal_Glacial_Lake_Outburst_Flood_v0.7.kmz",
         "file_type": "kmz"
+      },
+      {
+        "name": "Post-Disaster Flood Assessment - NepalAs Observed by Sentinel-1 image on 15 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/MBRSC/MBRSC-20250515-Nepal-Flood-00579-Report.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "Post-Disaster Flood Assessment - NepalAs Observed by Sentinel-1 image on 15 May 2025",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/MBRSC/MBRSC-20250515-Nepal-Flood-00579-Results.zip",
+        "file_type": "zip"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G000 PMS L4UTM 2025/05/23 05:25:10",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/FS5_G000_PMS_L4UTM_20250523_052510/FS5_G000_PMS_L4UTM_20250523_052510_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "FORMOSAT-5 Level4FS5 G000 PMS L4UTM 2025/05/27 05:25:06",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/FS5_G000_PMS_L4UTM_20250527_052506/FS5_G000_PMS_L4UTM_20250527_052506_qls.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HHStripNumber=24399 SceneNumber=422-MAY-2025 12:03:44",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_22MAY2025/np_eos4_mrs_22may25_hh_jpg.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HVStripNumber=24399 SceneNumber=422-MAY-2025 12:03:44",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_22MAY2025/np_eos4_mrs_22may25_hv_jpg.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HHStripNumber=24522 SceneNumber=327-MAY-2025 11:03:50",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_27MAY2025/vn_eos4_27may25_hh_jpg_sc1.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HVStripNumber=24522 SceneNumber=327-MAY-2025 11:03:50",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_27MAY2025/vn_eos4_27may25_hv_jpg_sc1.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HHStripNumber=24522 SceneNumber=427-MAY-2025 11:04:11",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_27MAY2025/vn_eos4_27may25_hh_jpg_sc2.jpg",
+        "file_type": "jpg"
+      },
+      {
+        "name": "EOS-04 SAR HVStripNumber=24522 SceneNumber=427-MAY-2025 11:04:11",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250515NP/E04_SAR_MRS_27MAY2025/vn_eos4_27may25_hv_jpg_sc2.jpg",
+        "file_type": "jpg"
       }
     ],
     "url": "https://sentinel-asia.org/EO/2025/article20250515NP.html"
@@ -543,6 +908,12 @@
         "description": null,
         "url": "https://sentinel-asia.org/EO/2025/article20250328MM/CHIBA-U/2.PNG",
         "file_type": "png"
+      },
+      {
+        "name": "Analysis of Changes in Myanmar Earthquake Affected Areas Using Satellite Imagery",
+        "description": null,
+        "url": "https://sentinel-asia.org/EO/2025/article20250328MM/ADRC/EarthquakeReport_ADRC.pdf",
+        "file_type": "pdf"
       },
       {
         "name": "ALOS-2 Level1.1BRS HH ALOS2 42525/3170 2022/04/08 FBD R 1.1 __D",
@@ -39282,9 +39653,9 @@
     "url": "https://sentinel-asia.org/EO/2018/article20180718VN.html"
   },
   {
-    "name": "Others in Thailand",
-    "description": "2018-07-09: Others in Thailand on 09 July, 2018",
-    "disaster_type": "Others",
+    "name": "Oil Spill in Thailand",
+    "description": "2018-07-09: Oil Spill in Thailand on 09 July, 2018",
+    "disaster_type": "Oil Spill",
     "country": "Thailand",
     "country_iso3": "THA",
     "occurrence_date": "2018-07-09",
@@ -40221,9 +40592,9 @@
     "url": "https://sentinel-asia.org/EO/2017/article20171225VN.html"
   },
   {
-    "name": "Others in India",
-    "description": "2017-12-02: Others in India on 02 December, 2017",
-    "disaster_type": "Others",
+    "name": "Disaster Due to Cyclone in India",
+    "description": "2017-12-02: Disaster Due to Cyclone in India on 02 December, 2017",
+    "disaster_type": "Disaster Due to Cyclone",
     "country": "India",
     "country_iso3": "IND",
     "occurrence_date": "2017-12-02",
@@ -43397,9 +43768,9 @@
     "url": "https://sentinel-asia.org/EO/2017/article20170106TH.html"
   },
   {
-    "name": "Others in Philippines",
-    "description": "2016-12-25: Others in Philippines on 25 December, 2016",
-    "disaster_type": "Others",
+    "name": "Disaster Due to Typhoon in Philippines",
+    "description": "2016-12-25: Disaster Due to Typhoon in Philippines on 25 December, 2016",
+    "disaster_type": "Disaster Due to Typhoon",
     "country": "Philippines",
     "country_iso3": "PHL",
     "occurrence_date": "2016-12-25",
@@ -49461,9 +49832,9 @@
     "url": "https://sentinel-asia.org/EO/2016/article20160326PH.html"
   },
   {
-    "name": "Others in Taiwan",
-    "description": "2016-03-12: Others in Taiwan on 12 March, 2016",
-    "disaster_type": "Others",
+    "name": "Oil Spill in Taiwan",
+    "description": "2016-03-12: Oil Spill in Taiwan on 12 March, 2016",
+    "disaster_type": "Oil Spill",
     "country": "Taiwan",
     "country_iso3": "TWN",
     "occurrence_date": "2016-03-12",
@@ -56892,9 +57263,9 @@
     "url": "https://sentinel-asia.org/EO/2015/article20150314VN.html"
   },
   {
-    "name": "Others in Vietnam",
-    "description": "2015-02-27: Others in Vietnam on 27 February, 2015",
-    "disaster_type": "Others",
+    "name": "Oil Spill in Vietnam",
+    "description": "2015-02-27: Oil Spill in Vietnam on 27 February, 2015",
+    "disaster_type": "Oil Spill",
     "country": "Vietnam",
     "country_iso3": "VNM",
     "occurrence_date": "2015-02-27",
@@ -65252,9 +65623,9 @@
     "url": "https://sentinel-asia.org/EO/2010/article20101020JP.html"
   },
   {
-    "name": "Others in Philippines",
-    "description": "2010-10-18: Others in Philippines on 18 October, 2010",
-    "disaster_type": "Others",
+    "name": "Storm surge in Isabela, Philippines",
+    "description": "2010-10-18: Storm surge in Isabela, Philippines on 18 October, 2010",
+    "disaster_type": "Storm surge",
     "country": "Philippines",
     "country_iso3": "PHL",
     "occurrence_date": "2010-10-18",
