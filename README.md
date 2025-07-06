@@ -74,6 +74,31 @@ Sentinel Asiaの緊急観測要請（EOR: Emergency Observation Request）情報
 pip install -r requirements.txt
 ```
 
+## データベース作成（スクレイピング）
+
+APIを使用する前に、スクレイピングツールを使用してイベントデータを取得し、`events.json`ファイルを作成する必要があります。
+
+### scraper.py
+Sentinel Asia公式サイトから災害イベント情報をスクレイピングし、`events.json`ファイルとして保存するツールです。
+
+#### 主な機能
+- Sentinel Asia公式サイトからEOR（緊急観測要請）情報を自動取得
+- 各イベントの詳細ページから追加情報を取得（requester, escalation_to_charter, glide_number, country等）
+- 各イベントのプロダクトファイル情報も取得
+- 全てのデータをevents.jsonファイルとして保存
+
+#### 使用方法
+```bash
+# スクレイピングを実行してevents.jsonファイルを作成
+python scraper.py
+```
+
+#### 出力ファイル
+- `events.json`: 全てのEORイベント情報が含まれたJSONファイル
+- このファイルはAPIサーバーが参照するデータベースとして使用されます
+
+**注意**: スクレイピングプロセスには時間がかかる場合があります（各イベントの詳細ページにアクセスするため）。
+
 ## サーバー起動方法
 
 ```bash
@@ -233,6 +258,31 @@ The following conditions apply to the use of obtained products (files):
 ```bash
 pip install -r requirements.txt
 ```
+
+## Database Creation (Scraping)
+
+Before using the API, you need to create the `events.json` file by scraping event data using the scraping tool.
+
+### scraper.py
+A tool that scrapes disaster event information from the Sentinel Asia official website and saves it as an `events.json` file.
+
+#### Main Features
+- Automatically retrieves EOR (Emergency Observation Request) information from the Sentinel Asia official website
+- Extracts additional information from each event's detail page (requester, escalation_to_charter, glide_number, country, etc.)
+- Also retrieves product file information for each event
+- Saves all data as an events.json file
+
+#### Usage
+```bash
+# Run scraping to create events.json file
+python scraper.py
+```
+
+#### Output File
+- `events.json`: JSON file containing all EOR event information
+- This file is used as the database referenced by the API server
+
+**Note**: The scraping process may take time (as it accesses each event's detail page).
 
 ## Server Startup
 
