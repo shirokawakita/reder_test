@@ -169,6 +169,13 @@ async def get_events(
         if end_date:
             end_date = end_date.replace("-", "")
             events = [e for e in events if e.occurrence_date.replace("-", "") <= end_date]
+        
+        # descriptionがnullの場合、nameと同じ内容を設定
+        for event in events:
+            for file_item in event.files:
+                if file_item.description is None or file_item.description == "":
+                    file_item.description = file_item.name
+        
         return events
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
